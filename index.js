@@ -16,6 +16,9 @@ const responses = {
          'Parallel lines have so much in common. It’s a shame they’ll never meet.']
 };
 
+
+
+
 function getRandomResponse(category) {
   const options = responses[category];
   return options[Math.floor(Math.random() * options.length)];
