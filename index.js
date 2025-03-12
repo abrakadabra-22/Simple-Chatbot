@@ -5,8 +5,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
-
 const responses = {
   greeting: ['Hello!', 'Hi there!', 'Hey! How can I help you today?'],
   farewell: ['Goodbye!', 'See you later!', 'Take care!'],
